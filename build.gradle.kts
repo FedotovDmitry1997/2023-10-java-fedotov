@@ -43,7 +43,7 @@ allprojects {
                 mavenBom("org.testcontainers:testcontainers-bom:$testcontainersBom")
                 mavenBom("com.google.protobuf:protobuf-bom:$protobufBom")
             }
-            dependency("com.google.guava:guava:$guava")
+//            dependency("com.google.guava:guava:$guava")
             dependency("org.openjdk.jmh:jmh-core:$jmh")
             dependency("org.openjdk.jmh:jmh-generator-annprocess:$jmh")
         }
